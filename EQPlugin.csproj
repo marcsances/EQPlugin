@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A8EEB72B-6617-438C-BEDD-A93B242E4512}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>EQPlugin</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include=".git\ms-persist.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="basePlugin.cs" />
+    <Compile Include="pluginUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pluginUI.Designer.cs">
+      <DependentUpon>pluginUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\GitHub\master" />
+    <None Include=".git\objects\02\40a9f9c05a55b809a27109be8369e4a4db3d53" />
+    <None Include=".git\objects\16\6a4fa3c407ff58eacdddbe969de72dede68264" />
+    <None Include=".git\objects\6a\255c534b0b8d36151246a6bae605c3d03622a7" />
+    <None Include=".git\objects\74\8683d0aa6b403de4fb46e8b179362a58c391a8" />
+    <None Include=".git\objects\a3\2833ff2bfbb8c8d4d036c232ace5c8f06e5187" />
+    <None Include=".git\objects\aa\f0c58c70de2580ec97fa047241c8c60a17fae6" />
+    <None Include=".git\objects\b1\e3fa7e064dbfdf67cb6c560a7489921371c02b" />
+    <None Include=".git\objects\b8\56a1c2841c0632d67f25341861523082ca8b00" />
+    <None Include=".git\objects\bd\5af5ae924d2b7bf4a9b3283728ed2a4eb976ad" />
+    <None Include=".git\objects\d2\2a4714ed169acd2f6a1711a303b83545e97465" />
+    <None Include=".git\objects\ee\aecebb032e87f3a19412ad91bf045ba3f8da0b" />
+    <None Include=".git\objects\ef\7e7efc09c9d471c391f05b9567966928085840" />
+    <None Include=".git\objects\f3\042c25b7576724045253f44c38e8921df28b49" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\GitHub\master" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="pluginUI.resx">
+      <DependentUpon>pluginUI.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libap\libap\libap.csproj">
+      <Project>{93eaacea-75b4-4aba-89ed-fa01bf252550}</Project>
+      <Name>libap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\fPlayer 2\fPlayer 2\fPlayer 2.csproj">
+      <Project>{dfea13bf-0907-4222-bcce-4f01ff2e9a86}</Project>
+      <Name>fPlayer 2</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
