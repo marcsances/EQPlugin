@@ -28,346 +28,295 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.trackBar2 = new System.Windows.Forms.TrackBar();
-            this.trackBar3 = new System.Windows.Forms.TrackBar();
-            this.trackBar4 = new System.Windows.Forms.TrackBar();
-            this.trackBar5 = new System.Windows.Forms.TrackBar();
-            this.trackBar6 = new System.Windows.Forms.TrackBar();
-            this.trackBar7 = new System.Windows.Forms.TrackBar();
-            this.trackBar8 = new System.Windows.Forms.TrackBar();
-            this.trackBar9 = new System.Windows.Forms.TrackBar();
-            this.trackBar10 = new System.Windows.Forms.TrackBar();
-            this.label2 = new System.Windows.Forms.Label();
-            this.trackBar11 = new System.Windows.Forms.TrackBar();
-            this.trackBar12 = new System.Windows.Forms.TrackBar();
-            this.trackBar13 = new System.Windows.Forms.TrackBar();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.trackBar14 = new System.Windows.Forms.TrackBar();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pluginUI));
+            this.pluginTitle = new System.Windows.Forms.Label();
+            this.freq115 = new System.Windows.Forms.TrackBar();
+            this.freq240 = new System.Windows.Forms.TrackBar();
+            this.freq455 = new System.Windows.Forms.TrackBar();
+            this.freq800 = new System.Windows.Forms.TrackBar();
+            this.freq2k = new System.Windows.Forms.TrackBar();
+            this.freq4d5k = new System.Windows.Forms.TrackBar();
+            this.freq9k = new System.Windows.Forms.TrackBar();
+            this.freq13k = new System.Windows.Forms.TrackBar();
+            this.freq15k = new System.Windows.Forms.TrackBar();
+            this.freqsr = new System.Windows.Forms.TrackBar();
+            this.freqlbl = new System.Windows.Forms.Label();
+            this.pitchbar = new System.Windows.Forms.TrackBar();
+            this.tempobar = new System.Windows.Forms.TrackBar();
+            this.echobar = new System.Windows.Forms.TrackBar();
+            this.pitchlbl = new System.Windows.Forms.Label();
+            this.tempolbl = new System.Windows.Forms.Label();
+            this.echolbl = new System.Windows.Forms.Label();
+            this.reversebox = new System.Windows.Forms.CheckBox();
+            this.stereomixbox = new System.Windows.Forms.CheckBox();
+            this.echooffbar = new System.Windows.Forms.TrackBar();
+            this.echoofflbl = new System.Windows.Forms.Label();
+            this.resetbox = new System.Windows.Forms.Button();
+            this.presetbox = new System.Windows.Forms.Button();
+            this.aboutButton = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.freq115)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq240)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq455)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq800)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq2k)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq4d5k)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq9k)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq13k)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq15k)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freqsr)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pitchbar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempobar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.echobar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.echooffbar)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // pluginTitle
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 22);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "EQ";
+            resources.ApplyResources(this.pluginTitle, "pluginTitle");
+            this.pluginTitle.Name = "pluginTitle";
             // 
-            // trackBar1
+            // freq115
             // 
-            this.trackBar1.Location = new System.Drawing.Point(7, 25);
-            this.trackBar1.Maximum = 100;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar1.Size = new System.Drawing.Size(45, 324);
-            this.trackBar1.TabIndex = 1;
-            this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar1.Value = 50;
+            resources.ApplyResources(this.freq115, "freq115");
+            this.freq115.Maximum = 50;
+            this.freq115.Minimum = -50;
+            this.freq115.Name = "freq115";
+            this.freq115.TickFrequency = 2;
+            this.freq115.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.freq115.Scroll += new System.EventHandler(this.freq115_Scroll);
             // 
-            // trackBar2
+            // freq240
             // 
-            this.trackBar2.Location = new System.Drawing.Point(58, 25);
-            this.trackBar2.Maximum = 100;
-            this.trackBar2.Name = "trackBar2";
-            this.trackBar2.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar2.Size = new System.Drawing.Size(45, 324);
-            this.trackBar2.TabIndex = 2;
-            this.trackBar2.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar2.Value = 50;
+            resources.ApplyResources(this.freq240, "freq240");
+            this.freq240.Maximum = 50;
+            this.freq240.Minimum = -50;
+            this.freq240.Name = "freq240";
+            this.freq240.TickFrequency = 2;
+            this.freq240.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.freq240.Scroll += new System.EventHandler(this.freq240_Scroll);
             // 
-            // trackBar3
+            // freq455
             // 
-            this.trackBar3.Location = new System.Drawing.Point(109, 25);
-            this.trackBar3.Maximum = 100;
-            this.trackBar3.Name = "trackBar3";
-            this.trackBar3.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar3.Size = new System.Drawing.Size(45, 324);
-            this.trackBar3.TabIndex = 3;
-            this.trackBar3.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar3.Value = 50;
+            resources.ApplyResources(this.freq455, "freq455");
+            this.freq455.Maximum = 50;
+            this.freq455.Minimum = -50;
+            this.freq455.Name = "freq455";
+            this.freq455.TickFrequency = 2;
+            this.freq455.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.freq455.Scroll += new System.EventHandler(this.freq455_Scroll);
             // 
-            // trackBar4
+            // freq800
             // 
-            this.trackBar4.Location = new System.Drawing.Point(160, 25);
-            this.trackBar4.Maximum = 100;
-            this.trackBar4.Name = "trackBar4";
-            this.trackBar4.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar4.Size = new System.Drawing.Size(45, 324);
-            this.trackBar4.TabIndex = 4;
-            this.trackBar4.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar4.Value = 50;
+            resources.ApplyResources(this.freq800, "freq800");
+            this.freq800.Maximum = 50;
+            this.freq800.Minimum = -50;
+            this.freq800.Name = "freq800";
+            this.freq800.TickFrequency = 2;
+            this.freq800.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.freq800.Scroll += new System.EventHandler(this.freq800_Scroll);
             // 
-            // trackBar5
+            // freq2k
             // 
-            this.trackBar5.Location = new System.Drawing.Point(211, 25);
-            this.trackBar5.Maximum = 100;
-            this.trackBar5.Name = "trackBar5";
-            this.trackBar5.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar5.Size = new System.Drawing.Size(45, 324);
-            this.trackBar5.TabIndex = 5;
-            this.trackBar5.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar5.Value = 50;
+            resources.ApplyResources(this.freq2k, "freq2k");
+            this.freq2k.Maximum = 50;
+            this.freq2k.Minimum = -50;
+            this.freq2k.Name = "freq2k";
+            this.freq2k.TickFrequency = 2;
+            this.freq2k.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.freq2k.Scroll += new System.EventHandler(this.freq2k_Scroll);
             // 
-            // trackBar6
+            // freq4d5k
             // 
-            this.trackBar6.Location = new System.Drawing.Point(262, 25);
-            this.trackBar6.Maximum = 100;
-            this.trackBar6.Name = "trackBar6";
-            this.trackBar6.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar6.Size = new System.Drawing.Size(45, 324);
-            this.trackBar6.TabIndex = 6;
-            this.trackBar6.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar6.Value = 50;
+            resources.ApplyResources(this.freq4d5k, "freq4d5k");
+            this.freq4d5k.Maximum = 50;
+            this.freq4d5k.Minimum = -50;
+            this.freq4d5k.Name = "freq4d5k";
+            this.freq4d5k.TickFrequency = 2;
+            this.freq4d5k.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.freq4d5k.Scroll += new System.EventHandler(this.freq4d5k_Scroll);
             // 
-            // trackBar7
+            // freq9k
             // 
-            this.trackBar7.Location = new System.Drawing.Point(313, 25);
-            this.trackBar7.Maximum = 100;
-            this.trackBar7.Name = "trackBar7";
-            this.trackBar7.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar7.Size = new System.Drawing.Size(45, 324);
-            this.trackBar7.TabIndex = 7;
-            this.trackBar7.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar7.Value = 50;
+            resources.ApplyResources(this.freq9k, "freq9k");
+            this.freq9k.Maximum = 50;
+            this.freq9k.Minimum = -50;
+            this.freq9k.Name = "freq9k";
+            this.freq9k.TickFrequency = 2;
+            this.freq9k.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.freq9k.Scroll += new System.EventHandler(this.freq9k_Scroll);
             // 
-            // trackBar8
+            // freq13k
             // 
-            this.trackBar8.Location = new System.Drawing.Point(364, 25);
-            this.trackBar8.Maximum = 100;
-            this.trackBar8.Name = "trackBar8";
-            this.trackBar8.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar8.Size = new System.Drawing.Size(45, 324);
-            this.trackBar8.TabIndex = 8;
-            this.trackBar8.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar8.Value = 50;
+            resources.ApplyResources(this.freq13k, "freq13k");
+            this.freq13k.Maximum = 50;
+            this.freq13k.Minimum = -50;
+            this.freq13k.Name = "freq13k";
+            this.freq13k.TickFrequency = 2;
+            this.freq13k.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.freq13k.Scroll += new System.EventHandler(this.freq13k_Scroll);
             // 
-            // trackBar9
+            // freq15k
             // 
-            this.trackBar9.Location = new System.Drawing.Point(415, 25);
-            this.trackBar9.Maximum = 100;
-            this.trackBar9.Name = "trackBar9";
-            this.trackBar9.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar9.Size = new System.Drawing.Size(45, 324);
-            this.trackBar9.TabIndex = 9;
-            this.trackBar9.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar9.Value = 50;
+            resources.ApplyResources(this.freq15k, "freq15k");
+            this.freq15k.Maximum = 50;
+            this.freq15k.Minimum = -50;
+            this.freq15k.Name = "freq15k";
+            this.freq15k.TickFrequency = 2;
+            this.freq15k.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.freq15k.Scroll += new System.EventHandler(this.freq15k_Scroll);
             // 
-            // trackBar10
+            // freqsr
             // 
-            this.trackBar10.Location = new System.Drawing.Point(466, 25);
-            this.trackBar10.Maximum = 100;
-            this.trackBar10.Name = "trackBar10";
-            this.trackBar10.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar10.Size = new System.Drawing.Size(45, 324);
-            this.trackBar10.TabIndex = 10;
-            this.trackBar10.TickStyle = System.Windows.Forms.TickStyle.Both;
-            this.trackBar10.Value = 50;
+            resources.ApplyResources(this.freqsr, "freqsr");
+            this.freqsr.Maximum = 50;
+            this.freqsr.Minimum = -50;
+            this.freqsr.Name = "freqsr";
+            this.freqsr.TickFrequency = 2;
+            this.freqsr.TickStyle = System.Windows.Forms.TickStyle.Both;
+            this.freqsr.Scroll += new System.EventHandler(this.freqsr_Scroll);
             // 
-            // label2
+            // freqlbl
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(10, 352);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(520, 22);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "115      240      455     800         2k       4,5k      9k        13k      15k  " +
-    "     SR  Hz";
+            resources.ApplyResources(this.freqlbl, "freqlbl");
+            this.freqlbl.Name = "freqlbl";
             // 
-            // trackBar11
+            // pitchbar
             // 
-            this.trackBar11.Location = new System.Drawing.Point(14, 398);
-            this.trackBar11.Maximum = 100;
-            this.trackBar11.Name = "trackBar11";
-            this.trackBar11.Size = new System.Drawing.Size(191, 45);
-            this.trackBar11.TabIndex = 12;
-            this.trackBar11.Value = 50;
+            resources.ApplyResources(this.pitchbar, "pitchbar");
+            this.pitchbar.Maximum = 100;
+            this.pitchbar.Name = "pitchbar";
+            this.pitchbar.TickFrequency = 5;
+            this.pitchbar.Value = 50;
+            this.pitchbar.Scroll += new System.EventHandler(this.pitchbar_Scroll);
             // 
-            // trackBar12
+            // tempobar
             // 
-            this.trackBar12.Location = new System.Drawing.Point(211, 398);
-            this.trackBar12.Maximum = 100;
-            this.trackBar12.Name = "trackBar12";
-            this.trackBar12.Size = new System.Drawing.Size(191, 45);
-            this.trackBar12.TabIndex = 13;
-            this.trackBar12.Value = 50;
+            resources.ApplyResources(this.tempobar, "tempobar");
+            this.tempobar.Maximum = 100;
+            this.tempobar.Name = "tempobar";
+            this.tempobar.TickFrequency = 5;
+            this.tempobar.Value = 50;
+            this.tempobar.Scroll += new System.EventHandler(this.tempobar_Scroll);
             // 
-            // trackBar13
+            // echobar
             // 
-            this.trackBar13.Location = new System.Drawing.Point(14, 459);
-            this.trackBar13.Maximum = 100;
-            this.trackBar13.Name = "trackBar13";
-            this.trackBar13.Size = new System.Drawing.Size(191, 45);
-            this.trackBar13.TabIndex = 14;
-            this.trackBar13.Value = 50;
+            resources.ApplyResources(this.echobar, "echobar");
+            this.echobar.Maximum = 100;
+            this.echobar.Name = "echobar";
+            this.echobar.TickFrequency = 5;
+            this.echobar.Value = 50;
+            this.echobar.Scroll += new System.EventHandler(this.echobar_Scroll);
             // 
-            // label3
+            // pitchlbl
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(81, 434);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 22);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "PITCH";
+            resources.ApplyResources(this.pitchlbl, "pitchlbl");
+            this.pitchlbl.Name = "pitchlbl";
             // 
-            // label4
+            // tempolbl
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(277, 434);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 22);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "TEMPO";
+            resources.ApplyResources(this.tempolbl, "tempolbl");
+            this.tempolbl.Name = "tempolbl";
             // 
-            // label5
+            // echolbl
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(54, 496);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 22);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "ECHO BALANCE";
+            resources.ApplyResources(this.echolbl, "echolbl");
+            this.echolbl.Name = "echolbl";
             // 
-            // checkBox1
+            // reversebox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(408, 398);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(112, 17);
-            this.checkBox1.TabIndex = 18;
-            this.checkBox1.Text = "Reverse playback";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.reversebox, "reversebox");
+            this.reversebox.Name = "reversebox";
+            this.reversebox.UseVisualStyleBackColor = true;
+            this.reversebox.CheckedChanged += new System.EventHandler(this.reversebox_CheckedChanged);
             // 
-            // checkBox2
+            // stereomixbox
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(408, 421);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(75, 17);
-            this.checkBox2.TabIndex = 19;
-            this.checkBox2.Text = "Stereo mix";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.stereomixbox, "stereomixbox");
+            this.stereomixbox.Name = "stereomixbox";
+            this.stereomixbox.UseVisualStyleBackColor = true;
+            this.stereomixbox.CheckedChanged += new System.EventHandler(this.stereomixbox_CheckedChanged);
             // 
-            // trackBar14
+            // echooffbar
             // 
-            this.trackBar14.Location = new System.Drawing.Point(211, 459);
-            this.trackBar14.Maximum = 100;
-            this.trackBar14.Name = "trackBar14";
-            this.trackBar14.Size = new System.Drawing.Size(191, 45);
-            this.trackBar14.TabIndex = 20;
+            resources.ApplyResources(this.echooffbar, "echooffbar");
+            this.echooffbar.LargeChange = 10;
+            this.echooffbar.Maximum = 1000;
+            this.echooffbar.Name = "echooffbar";
+            this.echooffbar.SmallChange = 5;
+            this.echooffbar.TickFrequency = 50;
+            this.echooffbar.Scroll += new System.EventHandler(this.echooffbar_Scroll);
             // 
-            // label6
+            // echoofflbl
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Open Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(258, 496);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 22);
-            this.label6.TabIndex = 21;
-            this.label6.Text = "ECHO OFFSET";
+            resources.ApplyResources(this.echoofflbl, "echoofflbl");
+            this.echoofflbl.Name = "echoofflbl";
             // 
-            // button1
+            // resetbox
             // 
-            this.button1.Location = new System.Drawing.Point(409, 459);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(111, 29);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "RESET";
-            this.button1.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.resetbox, "resetbox");
+            this.resetbox.Name = "resetbox";
+            this.resetbox.UseVisualStyleBackColor = true;
+            this.resetbox.Click += new System.EventHandler(this.resetbox_Click);
             // 
-            // button2
+            // presetbox
             // 
-            this.button2.Location = new System.Drawing.Point(409, 489);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 29);
-            this.button2.TabIndex = 23;
-            this.button2.Text = "PRESETS";
-            this.button2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.presetbox, "presetbox");
+            this.presetbox.Name = "presetbox";
+            this.presetbox.UseVisualStyleBackColor = true;
+            this.presetbox.Click += new System.EventHandler(this.presetbox_Click);
             // 
-            // button3
+            // aboutButton
             // 
-            this.button3.Location = new System.Drawing.Point(506, 0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(29, 29);
-            this.button3.TabIndex = 24;
-            this.button3.Text = "?";
-            this.button3.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.aboutButton, "aboutButton");
+            this.aboutButton.Name = "aboutButton";
+            this.aboutButton.UseVisualStyleBackColor = true;
+            this.aboutButton.Click += new System.EventHandler(this.aboutButton_Click);
             // 
             // pluginUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.trackBar14);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.trackBar13);
-            this.Controls.Add(this.trackBar12);
-            this.Controls.Add(this.trackBar11);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.trackBar10);
-            this.Controls.Add(this.trackBar9);
-            this.Controls.Add(this.trackBar8);
-            this.Controls.Add(this.trackBar7);
-            this.Controls.Add(this.trackBar6);
-            this.Controls.Add(this.trackBar5);
-            this.Controls.Add(this.trackBar4);
-            this.Controls.Add(this.trackBar3);
-            this.Controls.Add(this.trackBar2);
-            this.Controls.Add(this.trackBar1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.aboutButton);
+            this.Controls.Add(this.presetbox);
+            this.Controls.Add(this.resetbox);
+            this.Controls.Add(this.echoofflbl);
+            this.Controls.Add(this.echooffbar);
+            this.Controls.Add(this.stereomixbox);
+            this.Controls.Add(this.reversebox);
+            this.Controls.Add(this.echolbl);
+            this.Controls.Add(this.tempolbl);
+            this.Controls.Add(this.pitchlbl);
+            this.Controls.Add(this.echobar);
+            this.Controls.Add(this.tempobar);
+            this.Controls.Add(this.pitchbar);
+            this.Controls.Add(this.freqlbl);
+            this.Controls.Add(this.freqsr);
+            this.Controls.Add(this.freq15k);
+            this.Controls.Add(this.freq13k);
+            this.Controls.Add(this.freq9k);
+            this.Controls.Add(this.freq4d5k);
+            this.Controls.Add(this.freq2k);
+            this.Controls.Add(this.freq800);
+            this.Controls.Add(this.freq455);
+            this.Controls.Add(this.freq240);
+            this.Controls.Add(this.freq115);
+            this.Controls.Add(this.pluginTitle);
             this.Name = "pluginUI";
-            this.Size = new System.Drawing.Size(535, 537);
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq115)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq240)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq455)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq800)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq2k)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq4d5k)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq9k)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq13k)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freq15k)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.freqsr)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pitchbar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tempobar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.echobar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.echooffbar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -375,30 +324,30 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TrackBar trackBar1;
-        private System.Windows.Forms.TrackBar trackBar2;
-        private System.Windows.Forms.TrackBar trackBar3;
-        private System.Windows.Forms.TrackBar trackBar4;
-        private System.Windows.Forms.TrackBar trackBar5;
-        private System.Windows.Forms.TrackBar trackBar6;
-        private System.Windows.Forms.TrackBar trackBar7;
-        private System.Windows.Forms.TrackBar trackBar8;
-        private System.Windows.Forms.TrackBar trackBar9;
-        private System.Windows.Forms.TrackBar trackBar10;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TrackBar trackBar11;
-        private System.Windows.Forms.TrackBar trackBar12;
-        private System.Windows.Forms.TrackBar trackBar13;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.TrackBar trackBar14;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label pluginTitle;
+        private System.Windows.Forms.TrackBar freq115;
+        private System.Windows.Forms.TrackBar freq240;
+        private System.Windows.Forms.TrackBar freq455;
+        private System.Windows.Forms.TrackBar freq800;
+        private System.Windows.Forms.TrackBar freq2k;
+        private System.Windows.Forms.TrackBar freq4d5k;
+        private System.Windows.Forms.TrackBar freq9k;
+        private System.Windows.Forms.TrackBar freq13k;
+        private System.Windows.Forms.TrackBar freq15k;
+        private System.Windows.Forms.TrackBar freqsr;
+        private System.Windows.Forms.Label freqlbl;
+        private System.Windows.Forms.TrackBar pitchbar;
+        private System.Windows.Forms.TrackBar tempobar;
+        private System.Windows.Forms.TrackBar echobar;
+        private System.Windows.Forms.Label pitchlbl;
+        private System.Windows.Forms.Label tempolbl;
+        private System.Windows.Forms.Label echolbl;
+        private System.Windows.Forms.CheckBox reversebox;
+        private System.Windows.Forms.CheckBox stereomixbox;
+        private System.Windows.Forms.TrackBar echooffbar;
+        private System.Windows.Forms.Label echoofflbl;
+        private System.Windows.Forms.Button resetbox;
+        private System.Windows.Forms.Button presetbox;
+        private System.Windows.Forms.Button aboutButton;
     }
 }

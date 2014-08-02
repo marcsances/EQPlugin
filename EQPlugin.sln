@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fPlayer 2", "..\fPlayer 2\f
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libap", "..\libap\libap\libap.csproj", "{93EAACEA-75B4-4ABA-89ED-FA01BF252550}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "basePlugin", "basePlugin.csproj", "{00429D8C-269D-4EB3-AAFC-DCF072FCB855}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eqplug", "eqplug.csproj", "{00429D8C-269D-4EB3-AAFC-DCF072FCB855}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

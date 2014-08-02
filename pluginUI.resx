@@ -117,4 +117,655 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="freq13k.Location" type="System.Drawing.Point, System.Drawing">
+    <value>364, 25</value>
+  </data>
+  <data name="&gt;&gt;freq240.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pitchlbl.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="freq2k.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 324</value>
+  </data>
+  <data name="tempolbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 22</value>
+  </data>
+  <data name="&gt;&gt;echobar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="echobar.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;freqlbl.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="freq13k.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 324</value>
+  </data>
+  <data name="&gt;&gt;tempobar.Name" xml:space="preserve">
+    <value>tempobar</value>
+  </data>
+  <data name="&gt;&gt;pitchlbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;echobar.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tempolbl.Name" xml:space="preserve">
+    <value>tempolbl</value>
+  </data>
+  <data name="&gt;&gt;pitchbar.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;pitchlbl.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="freq13k.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="aboutButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 29</value>
+  </data>
+  <data name="aboutButton.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="pluginTitle.Text" xml:space="preserve">
+    <value>EQ/DSP</value>
+  </data>
+  <data name="&gt;&gt;freqlbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="echolbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 22</value>
+  </data>
+  <data name="freq2k.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="pitchlbl.Text" xml:space="preserve">
+    <value>PITCH</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="freq2k.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;freq2k.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="echolbl.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;echooffbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="reversebox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 398</value>
+  </data>
+  <data name="echooffbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 45</value>
+  </data>
+  <data name="&gt;&gt;pitchbar.Name" xml:space="preserve">
+    <value>pitchbar</value>
+  </data>
+  <data name="freq9k.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 25</value>
+  </data>
+  <data name="reversebox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 17</value>
+  </data>
+  <data name="&gt;&gt;freq800.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="freq4d5k.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="freq115.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="freq4d5k.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 25</value>
+  </data>
+  <data name="&gt;&gt;freq13k.Name" xml:space="preserve">
+    <value>freq13k</value>
+  </data>
+  <data name="presetbox.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="pitchlbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tempobar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="freq240.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 25</value>
+  </data>
+  <data name="freq15k.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 25</value>
+  </data>
+  <data name="&gt;&gt;freq13k.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="freq240.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="reversebox.Text" xml:space="preserve">
+    <value>Reverse playback</value>
+  </data>
+  <data name="&gt;&gt;freq115.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;reversebox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="presetbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 489</value>
+  </data>
+  <data name="&gt;&gt;echolbl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;stereomixbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tempolbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;freq115.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;stereomixbox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="echoofflbl.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="pitchlbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 22</value>
+  </data>
+  <data name="freq455.Location" type="System.Drawing.Point, System.Drawing">
+    <value>109, 25</value>
+  </data>
+  <data name="&gt;&gt;pluginTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;presetbox.Name" xml:space="preserve">
+    <value>presetbox</value>
+  </data>
+  <data name="freq15k.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 324</value>
+  </data>
+  <data name="&gt;&gt;resetbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;presetbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="freq240.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 324</value>
+  </data>
+  <data name="pluginTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="echooffbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 459</value>
+  </data>
+  <data name="&gt;&gt;reversebox.Name" xml:space="preserve">
+    <value>reversebox</value>
+  </data>
+  <data name="&gt;&gt;freq455.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;freqlbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="freq455.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 324</value>
+  </data>
+  <data name="&gt;&gt;freq4d5k.Name" xml:space="preserve">
+    <value>freq4d5k</value>
+  </data>
+  <data name="pluginTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="freq115.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 324</value>
+  </data>
+  <data name="&gt;&gt;freq240.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;freq455.Name" xml:space="preserve">
+    <value>freq455</value>
+  </data>
+  <data name="&gt;&gt;freq2k.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="pluginTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;echooffbar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="freq800.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 324</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>pluginUI</value>
+  </data>
+  <data name="&gt;&gt;echobar.Name" xml:space="preserve">
+    <value>echobar</value>
+  </data>
+  <data name="reversebox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="pitchbar.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;echoofflbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="aboutButton.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;pitchlbl.Name" xml:space="preserve">
+    <value>pitchlbl</value>
+  </data>
+  <data name="&gt;&gt;freq9k.Name" xml:space="preserve">
+    <value>freq9k</value>
+  </data>
+  <data name="freq9k.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;stereomixbox.Name" xml:space="preserve">
+    <value>stereomixbox</value>
+  </data>
+  <data name="&gt;&gt;freq9k.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;echobar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;freq240.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;freqsr.Name" xml:space="preserve">
+    <value>freqsr</value>
+  </data>
+  <data name="echolbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt</value>
+  </data>
+  <data name="aboutButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 0</value>
+  </data>
+  <data name="&gt;&gt;echolbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;echoofflbl.Name" xml:space="preserve">
+    <value>echoofflbl</value>
+  </data>
+  <data name="&gt;&gt;pluginTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tempobar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 398</value>
+  </data>
+  <data name="freq9k.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 324</value>
+  </data>
+  <data name="tempobar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 45</value>
+  </data>
+  <data name="freq455.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;freq2k.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;freq9k.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="freqlbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>520, 22</value>
+  </data>
+  <data name="resetbox.Text" xml:space="preserve">
+    <value>RESET</value>
+  </data>
+  <data name="&gt;&gt;pitchlbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reversebox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;freq240.Name" xml:space="preserve">
+    <value>freq240</value>
+  </data>
+  <data name="echoofflbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt</value>
+  </data>
+  <data name="freq15k.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="echoofflbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 496</value>
+  </data>
+  <data name="freq455.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;freq13k.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="pitchbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 45</value>
+  </data>
+  <data name="tempobar.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;freq2k.Name" xml:space="preserve">
+    <value>freq2k</value>
+  </data>
+  <data name="reversebox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="presetbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 29</value>
+  </data>
+  <data name="&gt;&gt;echoofflbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="freq15k.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;presetbox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;freq115.Name" xml:space="preserve">
+    <value>freq115</value>
+  </data>
+  <data name="freq800.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="stereomixbox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="freqlbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt</value>
+  </data>
+  <data name="pluginTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt</value>
+  </data>
+  <data name="&gt;&gt;freqsr.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="freqsr.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;freq455.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>535, 537</value>
+  </data>
+  <data name="echolbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;reversebox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="freq800.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 25</value>
+  </data>
+  <data name="&gt;&gt;resetbox.Name" xml:space="preserve">
+    <value>resetbox</value>
+  </data>
+  <data name="&gt;&gt;tempolbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="freq115.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;freq800.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="tempolbl.Text" xml:space="preserve">
+    <value>TEMPO</value>
+  </data>
+  <data name="freq4d5k.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pitchlbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt</value>
+  </data>
+  <data name="stereomixbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 421</value>
+  </data>
+  <data name="presetbox.Text" xml:space="preserve">
+    <value>PRESETS</value>
+  </data>
+  <data name="&gt;&gt;pitchbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tempolbl.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="pitchbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 398</value>
+  </data>
+  <data name="echoofflbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 22</value>
+  </data>
+  <data name="&gt;&gt;freq15k.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="pitchlbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 434</value>
+  </data>
+  <data name="&gt;&gt;pluginTitle.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;freq9k.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.Name" xml:space="preserve">
+    <value>aboutButton</value>
+  </data>
+  <data name="echoofflbl.Text" xml:space="preserve">
+    <value>ECHO OFFSET</value>
+  </data>
+  <data name="&gt;&gt;freq15k.Name" xml:space="preserve">
+    <value>freq15k</value>
+  </data>
+  <data name="resetbox.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="pluginTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="freqlbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 352</value>
+  </data>
+  <data name="&gt;&gt;echooffbar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;echolbl.Name" xml:space="preserve">
+    <value>echolbl</value>
+  </data>
+  <data name="tempolbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="freq240.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;stereomixbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="echooffbar.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;echolbl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;resetbox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;freq4d5k.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;freqsr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="echoofflbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;freq800.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="echobar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 459</value>
+  </data>
+  <data name="stereomixbox.Text" xml:space="preserve">
+    <value>Stereo mix</value>
+  </data>
+  <data name="echolbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 496</value>
+  </data>
+  <data name="&gt;&gt;pitchbar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="resetbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 29</value>
+  </data>
+  <data name="&gt;&gt;freq4d5k.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tempolbl.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="freqsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 25</value>
+  </data>
+  <data name="&gt;&gt;aboutButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="freqlbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="freqsr.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="freqlbl.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;freqsr.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="freqlbl.Text" xml:space="preserve">
+    <value>115      240      455     800         2k       4,5k      9k        13k      15k       SR  Hz</value>
+  </data>
+  <data name="stereomixbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="&gt;&gt;resetbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;freqlbl.Name" xml:space="preserve">
+    <value>freqlbl</value>
+  </data>
+  <data name="&gt;&gt;echooffbar.Name" xml:space="preserve">
+    <value>echooffbar</value>
+  </data>
+  <data name="resetbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 459</value>
+  </data>
+  <data name="stereomixbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;freq800.Name" xml:space="preserve">
+    <value>freq800</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;freq15k.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="freq115.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 25</value>
+  </data>
+  <data name="&gt;&gt;freq15k.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="echobar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 45</value>
+  </data>
+  <data name="&gt;&gt;freq455.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;freq13k.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tempobar.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tempobar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="freq2k.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 25</value>
+  </data>
+  <data name="echolbl.Text" xml:space="preserve">
+    <value>ECHO BALANCE</value>
+  </data>
+  <data name="&gt;&gt;echoofflbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="freq800.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;freq115.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="freq9k.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="freqsr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 324</value>
+  </data>
+  <data name="tempolbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 434</value>
+  </data>
+  <data name="&gt;&gt;freq4d5k.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pluginTitle.Name" xml:space="preserve">
+    <value>pluginTitle</value>
+  </data>
+  <data name="freq4d5k.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 324</value>
+  </data>
+  <data name="tempolbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Open Sans, 12pt</value>
+  </data>
+  <data name="&gt;&gt;presetbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="freq13k.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>es</value>
+  </metadata>
 </root>

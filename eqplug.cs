@@ -7,12 +7,25 @@ namespace fPlayer_2
 {
     public class basePlugin : IPlugin
     {
-        public string name = "basePlugin";
+        public string name = "EQ";
         public Control getGUI(Player self)
         {
             pluginUI pui = new pluginUI();
             pui.Tag = self;
             return pui;
+        }
+
+
+        string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+
+        string IPlugin.Name
+        {
+            get { return name; }
+            set { name = value; }
         }
     }
 }
