@@ -8,11 +8,16 @@ namespace fPlayer_2
     public class basePlugin : IPlugin
     {
         public string name = "EQ";
+        public pluginUI pui;
         public Control getGUI(Player self)
         {
-            pluginUI pui = new pluginUI();
-            pui.Tag = self;
-            return pui;
+            if (pui == null)
+            {
+                pui = new pluginUI();
+                pui.Tag = self;
+                return pui;
+            }
+            else return pui;
         }
 
 

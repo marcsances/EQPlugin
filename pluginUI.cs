@@ -15,7 +15,6 @@ namespace fPlayer_2
         public pluginUI()
         {
             InitializeComponent();
-            parent = (Player)this.Tag;
         }
 
         private void aboutButton_Click(object sender, EventArgs e)
@@ -25,101 +24,113 @@ namespace fPlayer_2
 
         private void freq115_Scroll(object sender, EventArgs e)
         {
+            if (parent==null) parent = (Player)this.Tag;
             if (parent != null && parent.gI()!=null && libap.libAP.LIBAP_API_IMPL<2) // force IMPL 1.x
             {
-                getZP().SetEqualizerBandGain(0, freq115.Value * 50);
+                getZP().SetEqualizerBandGain(0, freq115.Value);
             }
         }
 
         private ZPlay getZP()
         {
+            if (parent == null) parent = (Player)this.Tag;
             return (ZPlay)parent.gI().impl_command("GETZPLAY", null)[0];
         }
 
         private void freq240_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().EnableEqualizer(true);
-                getZP().SetEqualizerBandGain(1, freq240.Value * 50);
+                getZP().SetEqualizerBandGain(1, freq240.Value);
             }
         }
 
         private void freq455_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().EnableEqualizer(true);
-                getZP().SetEqualizerBandGain(2, freq455.Value * 50);
+                getZP().SetEqualizerBandGain(2, freq455.Value);
             }
         }
 
         private void freq800_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().EnableEqualizer(true);
-                getZP().SetEqualizerBandGain(3, freq800.Value * 50);
+                getZP().SetEqualizerBandGain(3, freq800.Value);
             }
         }
 
 
         private void freq2k_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().EnableEqualizer(true);
-                getZP().SetEqualizerBandGain(4, freq2k.Value * 50);
+                getZP().SetEqualizerBandGain(4, freq2k.Value);
             }
         }
 
         private void freq4d5k_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().EnableEqualizer(true);
-                getZP().SetEqualizerBandGain(5, freq4d5k.Value * 50);
+                getZP().SetEqualizerBandGain(5, freq4d5k.Value);
             }
         }
 
         private void freq9k_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().EnableEqualizer(true);
-                getZP().SetEqualizerBandGain(6, freq9k.Value * 50);
+                getZP().SetEqualizerBandGain(6, freq9k.Value);
             }
         }
 
         private void freq13k_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().EnableEqualizer(true);
-                getZP().SetEqualizerBandGain(7, freq13k.Value * 50);
+                getZP().SetEqualizerBandGain(7, freq13k.Value);
             }
         }
 
         private void freq15k_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().EnableEqualizer(true);
-                getZP().SetEqualizerBandGain(8, freq15k.Value * 50);
+                getZP().SetEqualizerBandGain(8, freq15k.Value);
             }
         }
 
         private void freqsr_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().EnableEqualizer(true);
-                getZP().SetEqualizerBandGain(9, freqsr.Value * 50);
+                getZP().SetEqualizerBandGain(9, freqsr.Value);
             }
         }
 
         private void pitchbar_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().SetPitch(pitchbar.Value);
@@ -128,6 +139,7 @@ namespace fPlayer_2
 
         private void tempobar_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().SetTempo(tempobar.Value);
@@ -136,11 +148,13 @@ namespace fPlayer_2
 
         private void echobar_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             updateecho();
         }
 
         private void updateecho()
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().EnableEcho(true);
@@ -148,19 +162,21 @@ namespace fPlayer_2
                 tef.nLeftEchoVolume = echobar.Value;
                 tef.nLeftSrcVolume = 100 - echobar.Value;
                 tef.nRightEchoVolume = echobar.Value;
-                tef.nRightEchoVolume = 100 - echobar.Value;
-                tef.nLeftDelay = echooffbar.Value;
-                tef.nRightDelay = echooffbar.Value;
+                tef.nRightSrcVolume = 100 - echobar.Value;
+                tef.nLeftDelay = echooffbar.Value*10;
+                tef.nRightDelay = echooffbar.Value*10;
             }
         }
 
         private void echooffbar_Scroll(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             updateecho();
         }
 
         private void reversebox_CheckedChanged(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().ReverseMode(reversebox.Checked);
@@ -169,6 +185,7 @@ namespace fPlayer_2
 
         private void stereomixbox_CheckedChanged(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
                 getZP().StereoCut(stereomixbox.Checked,true,true);
@@ -177,6 +194,7 @@ namespace fPlayer_2
 
         private void resetbox_Click(object sender, EventArgs e)
         {
+            if (parent == null) parent = (Player)this.Tag;
             freq115.Value = 0;
             freq13k.Value = 0;
             freq15k.Value = 0;
@@ -189,10 +207,14 @@ namespace fPlayer_2
             freqsr.Value = 0;
             echooffbar.Value = 0;
             echobar.Value = 50;
+            pitchbar.Value = 100;
+            tempobar.Value = 100;
             reversebox.Checked = false;
             stereomixbox.Checked = false;
             if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
             {
+                getZP().SetPitch(100);
+                getZP().SetTempo(100);
                 getZP().EnableEqualizer(false);
                 getZP().EnableEcho(false);
             }
@@ -200,8 +222,15 @@ namespace fPlayer_2
 
         private void presetbox_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Not yet implemented");
+            if (parent == null) parent = (Player)this.Tag;
+            MessageBox.Show("Not yet implemented");     
         }
+
+        private void pluginUI_Load(object sender, EventArgs e)
+        {
+            if (parent == null) parent = (Player)this.Tag;
+        }
+
         
     }
 }

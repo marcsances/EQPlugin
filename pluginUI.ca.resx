@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pitchlbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 434</value>
+    <value>96, 412</value>
   </data>
   <data name="pitchlbl.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 22</value>
@@ -146,7 +146,7 @@
     <value>Mescla estéreo</value>
   </data>
   <data name="echoofflbl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 496</value>
+    <value>249, 476</value>
   </data>
   <data name="echoofflbl.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 22</value>

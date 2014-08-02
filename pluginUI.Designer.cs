@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pluginUI));
-            this.pluginTitle = new System.Windows.Forms.Label();
             this.freq115 = new System.Windows.Forms.TrackBar();
             this.freq240 = new System.Windows.Forms.TrackBar();
             this.freq455 = new System.Windows.Forms.TrackBar();
@@ -70,108 +69,105 @@
             ((System.ComponentModel.ISupportInitialize)(this.echooffbar)).BeginInit();
             this.SuspendLayout();
             // 
-            // pluginTitle
-            // 
-            resources.ApplyResources(this.pluginTitle, "pluginTitle");
-            this.pluginTitle.Name = "pluginTitle";
-            // 
             // freq115
             // 
             resources.ApplyResources(this.freq115, "freq115");
-            this.freq115.Maximum = 50;
-            this.freq115.Minimum = -50;
+            this.freq115.LargeChange = 50000;
+            this.freq115.Maximum = 30000;
+            this.freq115.Minimum = -30000;
             this.freq115.Name = "freq115";
-            this.freq115.TickFrequency = 2;
+            this.freq115.SmallChange = 1000;
+            this.freq115.TickFrequency = 1000;
             this.freq115.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.freq115.Scroll += new System.EventHandler(this.freq115_Scroll);
             // 
             // freq240
             // 
             resources.ApplyResources(this.freq240, "freq240");
-            this.freq240.Maximum = 50;
-            this.freq240.Minimum = -50;
+            this.freq240.Maximum = 30000;
+            this.freq240.Minimum = -30000;
             this.freq240.Name = "freq240";
-            this.freq240.TickFrequency = 2;
+            this.freq240.TickFrequency = 1000;
             this.freq240.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.freq240.Scroll += new System.EventHandler(this.freq240_Scroll);
             // 
             // freq455
             // 
             resources.ApplyResources(this.freq455, "freq455");
-            this.freq455.Maximum = 50;
-            this.freq455.Minimum = -50;
+            this.freq455.Maximum = 30000;
+            this.freq455.Minimum = -30000;
             this.freq455.Name = "freq455";
-            this.freq455.TickFrequency = 2;
+            this.freq455.TickFrequency = 1000;
             this.freq455.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.freq455.Scroll += new System.EventHandler(this.freq455_Scroll);
             // 
             // freq800
             // 
             resources.ApplyResources(this.freq800, "freq800");
-            this.freq800.Maximum = 50;
-            this.freq800.Minimum = -50;
+            this.freq800.Maximum = 30000;
+            this.freq800.Minimum = -30000;
             this.freq800.Name = "freq800";
-            this.freq800.TickFrequency = 2;
+            this.freq800.TickFrequency = 1000;
             this.freq800.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.freq800.Scroll += new System.EventHandler(this.freq800_Scroll);
             // 
             // freq2k
             // 
             resources.ApplyResources(this.freq2k, "freq2k");
-            this.freq2k.Maximum = 50;
-            this.freq2k.Minimum = -50;
+            this.freq2k.Maximum = 30000;
+            this.freq2k.Minimum = -30000;
             this.freq2k.Name = "freq2k";
-            this.freq2k.TickFrequency = 2;
+            this.freq2k.TickFrequency = 1000;
             this.freq2k.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.freq2k.Scroll += new System.EventHandler(this.freq2k_Scroll);
             // 
             // freq4d5k
             // 
             resources.ApplyResources(this.freq4d5k, "freq4d5k");
-            this.freq4d5k.Maximum = 50;
-            this.freq4d5k.Minimum = -50;
+            this.freq4d5k.Maximum = 30000;
+            this.freq4d5k.Minimum = -30000;
             this.freq4d5k.Name = "freq4d5k";
-            this.freq4d5k.TickFrequency = 2;
+            this.freq4d5k.TickFrequency = 1000;
             this.freq4d5k.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.freq4d5k.Scroll += new System.EventHandler(this.freq4d5k_Scroll);
             // 
             // freq9k
             // 
             resources.ApplyResources(this.freq9k, "freq9k");
-            this.freq9k.Maximum = 50;
-            this.freq9k.Minimum = -50;
+            this.freq9k.Maximum = 30000;
+            this.freq9k.Minimum = -30000;
             this.freq9k.Name = "freq9k";
-            this.freq9k.TickFrequency = 2;
+            this.freq9k.TickFrequency = 1000;
             this.freq9k.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.freq9k.Scroll += new System.EventHandler(this.freq9k_Scroll);
             // 
             // freq13k
             // 
             resources.ApplyResources(this.freq13k, "freq13k");
-            this.freq13k.Maximum = 50;
-            this.freq13k.Minimum = -50;
+            this.freq13k.Maximum = 30000;
+            this.freq13k.Minimum = -30000;
             this.freq13k.Name = "freq13k";
-            this.freq13k.TickFrequency = 2;
+            this.freq13k.TickFrequency = 1000;
             this.freq13k.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.freq13k.Scroll += new System.EventHandler(this.freq13k_Scroll);
             // 
             // freq15k
             // 
             resources.ApplyResources(this.freq15k, "freq15k");
-            this.freq15k.Maximum = 50;
-            this.freq15k.Minimum = -50;
+            this.freq15k.Maximum = 30000;
+            this.freq15k.Minimum = -30000;
             this.freq15k.Name = "freq15k";
-            this.freq15k.TickFrequency = 2;
+            this.freq15k.TickFrequency = 1000;
             this.freq15k.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.freq15k.Scroll += new System.EventHandler(this.freq15k_Scroll);
             // 
             // freqsr
             // 
             resources.ApplyResources(this.freqsr, "freqsr");
-            this.freqsr.Maximum = 50;
-            this.freqsr.Minimum = -50;
+            this.freqsr.Maximum = 30000;
+            this.freqsr.Minimum = -30000;
             this.freqsr.Name = "freqsr";
-            this.freqsr.TickFrequency = 2;
+            this.freqsr.TickFrequency = 1000;
             this.freqsr.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.freqsr.Scroll += new System.EventHandler(this.freqsr_Scroll);
             // 
@@ -183,19 +179,19 @@
             // pitchbar
             // 
             resources.ApplyResources(this.pitchbar, "pitchbar");
-            this.pitchbar.Maximum = 100;
+            this.pitchbar.Maximum = 200;
             this.pitchbar.Name = "pitchbar";
             this.pitchbar.TickFrequency = 5;
-            this.pitchbar.Value = 50;
+            this.pitchbar.Value = 100;
             this.pitchbar.Scroll += new System.EventHandler(this.pitchbar_Scroll);
             // 
             // tempobar
             // 
             resources.ApplyResources(this.tempobar, "tempobar");
-            this.tempobar.Maximum = 100;
+            this.tempobar.Maximum = 200;
             this.tempobar.Name = "tempobar";
             this.tempobar.TickFrequency = 5;
-            this.tempobar.Value = 50;
+            this.tempobar.Value = 100;
             this.tempobar.Scroll += new System.EventHandler(this.tempobar_Scroll);
             // 
             // echobar
@@ -301,8 +297,8 @@
             this.Controls.Add(this.freq455);
             this.Controls.Add(this.freq240);
             this.Controls.Add(this.freq115);
-            this.Controls.Add(this.pluginTitle);
             this.Name = "pluginUI";
+            this.Load += new System.EventHandler(this.pluginUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.freq115)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.freq240)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.freq455)).EndInit();
@@ -324,7 +320,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label pluginTitle;
         private System.Windows.Forms.TrackBar freq115;
         private System.Windows.Forms.TrackBar freq240;
         private System.Windows.Forms.TrackBar freq455;

@@ -7,8 +7,8 @@
     <ProjectGuid>{00429D8C-269D-4EB3-AAFC-DCF072FCB855}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>basePlugin</RootNamespace>
-    <AssemblyName>basePlugin</AssemblyName>
+    <RootNamespace>eqPlugin</RootNamespace>
+    <AssemblyName>eqPlugin</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
