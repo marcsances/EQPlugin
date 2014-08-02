@@ -160,4 +160,94 @@
   <data name="presetbox.Text" xml:space="preserve">
     <value>PRESELECCIONS</value>
   </data>
+  <data name="normalToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="rockToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="technoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="classicToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="classicToolStripMenuItem.Text" xml:space="preserve">
+    <value>Clàssica</value>
+  </data>
+  <data name="voiceBoostToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="voiceBoostToolStripMenuItem.Text" xml:space="preserve">
+    <value>Acústic</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="softToolStripMenuItem.Text" xml:space="preserve">
+    <value>Lleuger</value>
+  </data>
+  <data name="highToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fort</value>
+  </data>
+  <data name="extremeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Extrem</value>
+  </data>
+  <data name="maximumToolStripMenuItem.Text" xml:space="preserve">
+    <value>Màxim</value>
+  </data>
+  <data name="bassBoostToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="bassBoostToolStripMenuItem.Text" xml:space="preserve">
+    <value>Increment de baixos</value>
+  </data>
+  <data name="softToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Lleuger</value>
+  </data>
+  <data name="highToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Fort</value>
+  </data>
+  <data name="extremeToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Extrem</value>
+  </data>
+  <data name="maximumToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Màxim</value>
+  </data>
+  <data name="trebbleBoostToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="trebbleBoostToolStripMenuItem.Text" xml:space="preserve">
+    <value>Increment d'aguts</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 6</value>
+  </data>
+  <data name="softToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Lleuger</value>
+  </data>
+  <data name="extremeToolStripMenuItem2.Text" xml:space="preserve">
+    <value>Extrem</value>
+  </data>
+  <data name="heliumEffectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="heliumEffectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Efecte heli</value>
+  </data>
+  <data name="softToolStripMenuItem3.Text" xml:space="preserve">
+    <value>Lleuger</value>
+  </data>
+  <data name="extremeToolStripMenuItem3.Text" xml:space="preserve">
+    <value>Extrem</value>
+  </data>
+  <data name="monsterEffectToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="monsterEffectToolStripMenuItem.Text" xml:space="preserve">
+    <value>Efecte monstre</value>
+  </data>
+  <data name="presetmenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 214</value>
+  </data>
 </root>

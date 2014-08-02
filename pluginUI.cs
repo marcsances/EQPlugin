@@ -223,14 +223,174 @@ namespace fPlayer_2
         private void presetbox_Click(object sender, EventArgs e)
         {
             if (parent == null) parent = (Player)this.Tag;
-            MessageBox.Show("Not yet implemented");     
-        }
+            presetmenu.Show(MousePosition);
+        }   
 
         private void pluginUI_Load(object sender, EventArgs e)
         {
             if (parent == null) parent = (Player)this.Tag;
         }
 
-        
+        public void seteq(int[] frequencies, int pitch, int tempo)
+        {
+            if (parent != null && parent.gI() != null && libap.libAP.LIBAP_API_IMPL < 2) // force IMPL 1.x
+            {
+                int m = 0;
+                getZP().EnableEqualizer(true);
+                foreach (int i in frequencies)
+                {
+                    getZP().SetEqualizerBandGain(m, i);
+                    m++;
+                }
+                if (pitch > 0) getZP().SetPitch(pitch);
+                if (tempo > 0) getZP().SetTempo(tempo);
+            }
+            updateui();
+        }
+
+        public void updateui() {
+            freq115.Value = getZP().GetEqualizerBandGain(0);
+            freq240.Value = getZP().GetEqualizerBandGain(1);
+            freq455.Value = getZP().GetEqualizerBandGain(2);
+            freq800.Value = getZP().GetEqualizerBandGain(3);
+            freq2k.Value = getZP().GetEqualizerBandGain(4);
+            freq4d5k.Value = getZP().GetEqualizerBandGain(5);
+            freq9k.Value = getZP().GetEqualizerBandGain(6);
+            freq13k.Value = getZP().GetEqualizerBandGain(7);
+            freq15k.Value = getZP().GetEqualizerBandGain(8);
+            freqsr.Value = getZP().GetEqualizerBandGain(9);
+            pitchbar.Value = getZP().GetPitch();
+            tempobar.Value = getZP().GetTempo();
+        }
+
+        private void normalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void rockToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 20000, 16500, 13500, 11500, 2500, 2500, 11500, 13500, 16500, 20000 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void technoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 13500, 11500, 10000, 4000, 5000, 5000, 10000, 12000, 7000, 3000 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void classicToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 9000, 8500, 5750, 0, 3000, 0, -5000, -13500, -15750, -17000 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void voiceBoostToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { -9000, -8000, -5000, 2500, 10000, 15000, 7000, -5000, -7000, -15000 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void softToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 10000, 7000, 3000, 1000,500, 0, 0, 0, 0, 0 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void normalToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 16000, 13000, 9000, 5000, 2000, 0, 0, 0, 0, 0 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void highToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 20000, 16500, 13500, 11500, 2500, 0, 0, 0, 0, 0 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void extremeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 29999, 25000, 19000, 15000, 6000, 0, 0, 0, 0, 0 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void maximumToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 29999, 25000, 19000, 15000, 6000, 0, -6000, -15000, -19000, -25000, };
+            seteq(freqs, 0, 0);
+        }
+
+        private void softToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 0, 0, 0, 0, 0, 500, 1000, 3000, 7000, 10000 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void normalToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 0, 0, 0, 0, 0, 2000, 5000, 9000, 13000, 16000 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void highToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 0, 0, 0, 0, 0, 2500, 11500, 13500, 16500, 20000 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void extremeToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 0, 0, 0, 0, 0, 6000, 15000, 19000, 25000, 29999 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void maximumToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { -25000, -19000, -15000, -6000, 0, 6000, 15000, 19000, 25000, 29999 };
+            seteq(freqs, 0, 0);
+        }
+
+        private void softToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            int[] freqs={0,0,0,0,0,0,0,0,0,0};
+            seteq(freqs, 110, 110);
+        }
+
+        private void normalToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+            seteq(freqs, 130, 130);
+        }
+
+        private void extremeToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+            seteq(freqs, 150, 150);
+        }
+
+        private void softToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+            seteq(freqs, 90, 90);
+        }
+
+        private void normalToolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+            seteq(freqs, 70, 70);
+        }
+
+        private void extremeToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            int[] freqs = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+            seteq(freqs, 50, 50);
+        }
+
+
+
+
     }
 }

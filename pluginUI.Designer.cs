@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pluginUI));
             this.freq115 = new System.Windows.Forms.TrackBar();
             this.freq240 = new System.Windows.Forms.TrackBar();
@@ -53,6 +54,34 @@
             this.resetbox = new System.Windows.Forms.Button();
             this.presetbox = new System.Windows.Forms.Button();
             this.aboutButton = new System.Windows.Forms.Button();
+            this.presetmenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.normalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rockToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.technoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.classicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.voiceBoostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.bassBoostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.softToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.normalToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.highToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.extremeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.maximumToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trebbleBoostToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.softToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.normalToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.highToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.extremeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.maximumToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            this.heliumEffectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.softToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.normalToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.extremeToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.monsterEffectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.softToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.normalToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.extremeToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.freq115)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.freq240)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.freq455)).BeginInit();
@@ -67,6 +96,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tempobar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.echobar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.echooffbar)).BeginInit();
+            this.presetmenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // freq115
@@ -180,6 +210,7 @@
             // 
             resources.ApplyResources(this.pitchbar, "pitchbar");
             this.pitchbar.Maximum = 200;
+            this.pitchbar.Minimum = 1;
             this.pitchbar.Name = "pitchbar";
             this.pitchbar.TickFrequency = 5;
             this.pitchbar.Value = 100;
@@ -189,6 +220,7 @@
             // 
             resources.ApplyResources(this.tempobar, "tempobar");
             this.tempobar.Maximum = 200;
+            this.tempobar.Minimum = 1;
             this.tempobar.Name = "tempobar";
             this.tempobar.TickFrequency = 5;
             this.tempobar.Value = 100;
@@ -268,6 +300,199 @@
             this.aboutButton.UseVisualStyleBackColor = true;
             this.aboutButton.Click += new System.EventHandler(this.aboutButton_Click);
             // 
+            // presetmenu
+            // 
+            resources.ApplyResources(this.presetmenu, "presetmenu");
+            this.presetmenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.normalToolStripMenuItem,
+            this.rockToolStripMenuItem,
+            this.technoToolStripMenuItem,
+            this.classicToolStripMenuItem,
+            this.voiceBoostToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.bassBoostToolStripMenuItem,
+            this.trebbleBoostToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.heliumEffectToolStripMenuItem,
+            this.monsterEffectToolStripMenuItem});
+            this.presetmenu.Name = "presetmenu";
+            // 
+            // normalToolStripMenuItem
+            // 
+            resources.ApplyResources(this.normalToolStripMenuItem, "normalToolStripMenuItem");
+            this.normalToolStripMenuItem.Name = "normalToolStripMenuItem";
+            this.normalToolStripMenuItem.Click += new System.EventHandler(this.normalToolStripMenuItem_Click);
+            // 
+            // rockToolStripMenuItem
+            // 
+            resources.ApplyResources(this.rockToolStripMenuItem, "rockToolStripMenuItem");
+            this.rockToolStripMenuItem.Name = "rockToolStripMenuItem";
+            this.rockToolStripMenuItem.Click += new System.EventHandler(this.rockToolStripMenuItem_Click);
+            // 
+            // technoToolStripMenuItem
+            // 
+            resources.ApplyResources(this.technoToolStripMenuItem, "technoToolStripMenuItem");
+            this.technoToolStripMenuItem.Name = "technoToolStripMenuItem";
+            this.technoToolStripMenuItem.Click += new System.EventHandler(this.technoToolStripMenuItem_Click);
+            // 
+            // classicToolStripMenuItem
+            // 
+            resources.ApplyResources(this.classicToolStripMenuItem, "classicToolStripMenuItem");
+            this.classicToolStripMenuItem.Name = "classicToolStripMenuItem";
+            this.classicToolStripMenuItem.Click += new System.EventHandler(this.classicToolStripMenuItem_Click);
+            // 
+            // voiceBoostToolStripMenuItem
+            // 
+            resources.ApplyResources(this.voiceBoostToolStripMenuItem, "voiceBoostToolStripMenuItem");
+            this.voiceBoostToolStripMenuItem.Name = "voiceBoostToolStripMenuItem";
+            this.voiceBoostToolStripMenuItem.Click += new System.EventHandler(this.voiceBoostToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            // 
+            // bassBoostToolStripMenuItem
+            // 
+            resources.ApplyResources(this.bassBoostToolStripMenuItem, "bassBoostToolStripMenuItem");
+            this.bassBoostToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.softToolStripMenuItem,
+            this.normalToolStripMenuItem1,
+            this.highToolStripMenuItem,
+            this.extremeToolStripMenuItem,
+            this.maximumToolStripMenuItem});
+            this.bassBoostToolStripMenuItem.Name = "bassBoostToolStripMenuItem";
+            // 
+            // softToolStripMenuItem
+            // 
+            resources.ApplyResources(this.softToolStripMenuItem, "softToolStripMenuItem");
+            this.softToolStripMenuItem.Name = "softToolStripMenuItem";
+            this.softToolStripMenuItem.Click += new System.EventHandler(this.softToolStripMenuItem_Click);
+            // 
+            // normalToolStripMenuItem1
+            // 
+            resources.ApplyResources(this.normalToolStripMenuItem1, "normalToolStripMenuItem1");
+            this.normalToolStripMenuItem1.Name = "normalToolStripMenuItem1";
+            this.normalToolStripMenuItem1.Click += new System.EventHandler(this.normalToolStripMenuItem1_Click);
+            // 
+            // highToolStripMenuItem
+            // 
+            resources.ApplyResources(this.highToolStripMenuItem, "highToolStripMenuItem");
+            this.highToolStripMenuItem.Name = "highToolStripMenuItem";
+            this.highToolStripMenuItem.Click += new System.EventHandler(this.highToolStripMenuItem_Click);
+            // 
+            // extremeToolStripMenuItem
+            // 
+            resources.ApplyResources(this.extremeToolStripMenuItem, "extremeToolStripMenuItem");
+            this.extremeToolStripMenuItem.Name = "extremeToolStripMenuItem";
+            this.extremeToolStripMenuItem.Click += new System.EventHandler(this.extremeToolStripMenuItem_Click);
+            // 
+            // maximumToolStripMenuItem
+            // 
+            resources.ApplyResources(this.maximumToolStripMenuItem, "maximumToolStripMenuItem");
+            this.maximumToolStripMenuItem.Name = "maximumToolStripMenuItem";
+            this.maximumToolStripMenuItem.Click += new System.EventHandler(this.maximumToolStripMenuItem_Click);
+            // 
+            // trebbleBoostToolStripMenuItem
+            // 
+            resources.ApplyResources(this.trebbleBoostToolStripMenuItem, "trebbleBoostToolStripMenuItem");
+            this.trebbleBoostToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.softToolStripMenuItem1,
+            this.normalToolStripMenuItem2,
+            this.highToolStripMenuItem1,
+            this.extremeToolStripMenuItem1,
+            this.maximumToolStripMenuItem1});
+            this.trebbleBoostToolStripMenuItem.Name = "trebbleBoostToolStripMenuItem";
+            // 
+            // softToolStripMenuItem1
+            // 
+            resources.ApplyResources(this.softToolStripMenuItem1, "softToolStripMenuItem1");
+            this.softToolStripMenuItem1.Name = "softToolStripMenuItem1";
+            this.softToolStripMenuItem1.Click += new System.EventHandler(this.softToolStripMenuItem1_Click);
+            // 
+            // normalToolStripMenuItem2
+            // 
+            resources.ApplyResources(this.normalToolStripMenuItem2, "normalToolStripMenuItem2");
+            this.normalToolStripMenuItem2.Name = "normalToolStripMenuItem2";
+            this.normalToolStripMenuItem2.Click += new System.EventHandler(this.normalToolStripMenuItem2_Click);
+            // 
+            // highToolStripMenuItem1
+            // 
+            resources.ApplyResources(this.highToolStripMenuItem1, "highToolStripMenuItem1");
+            this.highToolStripMenuItem1.Name = "highToolStripMenuItem1";
+            this.highToolStripMenuItem1.Click += new System.EventHandler(this.highToolStripMenuItem1_Click);
+            // 
+            // extremeToolStripMenuItem1
+            // 
+            resources.ApplyResources(this.extremeToolStripMenuItem1, "extremeToolStripMenuItem1");
+            this.extremeToolStripMenuItem1.Name = "extremeToolStripMenuItem1";
+            this.extremeToolStripMenuItem1.Click += new System.EventHandler(this.extremeToolStripMenuItem1_Click);
+            // 
+            // maximumToolStripMenuItem1
+            // 
+            resources.ApplyResources(this.maximumToolStripMenuItem1, "maximumToolStripMenuItem1");
+            this.maximumToolStripMenuItem1.Name = "maximumToolStripMenuItem1";
+            this.maximumToolStripMenuItem1.Click += new System.EventHandler(this.maximumToolStripMenuItem1_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            // 
+            // heliumEffectToolStripMenuItem
+            // 
+            resources.ApplyResources(this.heliumEffectToolStripMenuItem, "heliumEffectToolStripMenuItem");
+            this.heliumEffectToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.softToolStripMenuItem2,
+            this.normalToolStripMenuItem3,
+            this.extremeToolStripMenuItem2});
+            this.heliumEffectToolStripMenuItem.Name = "heliumEffectToolStripMenuItem";
+            // 
+            // softToolStripMenuItem2
+            // 
+            resources.ApplyResources(this.softToolStripMenuItem2, "softToolStripMenuItem2");
+            this.softToolStripMenuItem2.Name = "softToolStripMenuItem2";
+            this.softToolStripMenuItem2.Click += new System.EventHandler(this.softToolStripMenuItem2_Click);
+            // 
+            // normalToolStripMenuItem3
+            // 
+            resources.ApplyResources(this.normalToolStripMenuItem3, "normalToolStripMenuItem3");
+            this.normalToolStripMenuItem3.Name = "normalToolStripMenuItem3";
+            this.normalToolStripMenuItem3.Click += new System.EventHandler(this.normalToolStripMenuItem3_Click);
+            // 
+            // extremeToolStripMenuItem2
+            // 
+            resources.ApplyResources(this.extremeToolStripMenuItem2, "extremeToolStripMenuItem2");
+            this.extremeToolStripMenuItem2.Name = "extremeToolStripMenuItem2";
+            this.extremeToolStripMenuItem2.Click += new System.EventHandler(this.extremeToolStripMenuItem2_Click);
+            // 
+            // monsterEffectToolStripMenuItem
+            // 
+            resources.ApplyResources(this.monsterEffectToolStripMenuItem, "monsterEffectToolStripMenuItem");
+            this.monsterEffectToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.softToolStripMenuItem3,
+            this.normalToolStripMenuItem4,
+            this.extremeToolStripMenuItem3});
+            this.monsterEffectToolStripMenuItem.Name = "monsterEffectToolStripMenuItem";
+            // 
+            // softToolStripMenuItem3
+            // 
+            resources.ApplyResources(this.softToolStripMenuItem3, "softToolStripMenuItem3");
+            this.softToolStripMenuItem3.Name = "softToolStripMenuItem3";
+            this.softToolStripMenuItem3.Click += new System.EventHandler(this.softToolStripMenuItem3_Click);
+            // 
+            // normalToolStripMenuItem4
+            // 
+            resources.ApplyResources(this.normalToolStripMenuItem4, "normalToolStripMenuItem4");
+            this.normalToolStripMenuItem4.Name = "normalToolStripMenuItem4";
+            this.normalToolStripMenuItem4.Click += new System.EventHandler(this.normalToolStripMenuItem4_Click);
+            // 
+            // extremeToolStripMenuItem3
+            // 
+            resources.ApplyResources(this.extremeToolStripMenuItem3, "extremeToolStripMenuItem3");
+            this.extremeToolStripMenuItem3.Name = "extremeToolStripMenuItem3";
+            this.extremeToolStripMenuItem3.Click += new System.EventHandler(this.extremeToolStripMenuItem3_Click);
+            // 
             // pluginUI
             // 
             resources.ApplyResources(this, "$this");
@@ -313,6 +538,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tempobar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.echobar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.echooffbar)).EndInit();
+            this.presetmenu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -344,5 +570,33 @@
         private System.Windows.Forms.Button resetbox;
         private System.Windows.Forms.Button presetbox;
         private System.Windows.Forms.Button aboutButton;
+        private System.Windows.Forms.ContextMenuStrip presetmenu;
+        private System.Windows.Forms.ToolStripMenuItem normalToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rockToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem technoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem classicToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem voiceBoostToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem bassBoostToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem softToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem normalToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem highToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem extremeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem maximumToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem trebbleBoostToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem softToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem normalToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem highToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem extremeToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem maximumToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem heliumEffectToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem softToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem normalToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem extremeToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem monsterEffectToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem softToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem normalToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem extremeToolStripMenuItem3;
     }
 }
