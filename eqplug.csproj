@@ -52,13 +52,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\libap\libap\libap.csproj">
-      <Project>{93eaacea-75b4-4aba-89ed-fa01bf252550}</Project>
-      <Name>libap</Name>
-    </ProjectReference>
     <ProjectReference Include="..\fPlayer 2\fPlayer 2\fPlayer 2.csproj">
       <Project>{dfea13bf-0907-4222-bcce-4f01ff2e9a86}</Project>
       <Name>fPlayer 2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libap\libap\libap.csproj">
+      <Project>{93eaacea-75b4-4aba-89ed-fa01bf252550}</Project>
+      <Name>libap</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
