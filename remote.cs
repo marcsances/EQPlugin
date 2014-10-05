@@ -7,7 +7,7 @@ namespace fPlayer_2
 {
     public class basePlugin : IPlugin
     {
-        public string name = "EQ";
+        public string name = "urMusik Remote";
         public pluginUI pui;
         public Control getGUI(Player self)
         {

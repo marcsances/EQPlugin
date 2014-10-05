@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="eqplug.cs" />
+    <Compile Include="remote.cs" />
     <Compile Include="pluginUI.cs">
       <SubType>UserControl</SubType>
     </Compile>
